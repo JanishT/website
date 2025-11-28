@@ -1,0 +1,2657 @@
+[00:00:16.876] Server  LOG      ✓ Ready in 10.4s
+[00:00:40.163] Server  LOG      ○ Compiling / ...
+[00:00:42.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:57.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:03.328] Server  LOG      ✓ Compiled in 25ms
+[00:22:06.834] Server  LOG      ✓ Compiled in 11ms
+[00:22:09.158] Server  LOG      ✓ Compiled in 20ms
+[00:22:11.444] Server  LOG      ✓ Compiled in 28ms
+[00:22:15.514] Server  LOG      ✓ Compiled in 24ms
+[00:22:17.922] Server  LOG      ✓ Compiled in 19ms
+[00:22:21.137] Server  LOG      ✓ Compiled in 25ms
+[00:22:21.609] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[00:22:21.609] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[00:22:24.240] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[00:22:24.245] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:24.246] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:24.298] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[00:22:24.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:24.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:25.605] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:22:25.605] Browser ERROR   Image is missing required "src" property: <img>
+[00:22:25.605] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:22:25.606] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:22:25.606] Browser ERROR   Image is missing required "src" property: <img>
+[00:22:25.606] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:22:25.978] Server  LOG      ✓ Compiled in 23ms
+[00:22:26.596] Browser ERROR   ./app/page.tsx:29:25
+Parsing ecmascript source code failed
+  27 |
+  28 |         <div className="">
+> 29 |           <Image src={}/>
+     |                         ^
+  30 |         </div>
+  31 |       </div>
+  32 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:26.597] Browser ERROR   ./app/page.tsx:29:25
+Parsing ecmascript source code failed
+  27 |
+  28 |         <div className="">
+> 29 |           <Image src={}/>
+     |                         ^
+  30 |         </div>
+  31 |       </div>
+  32 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:30.603] Server  LOG      ✓ Compiled in 25ms
+[00:22:31.595] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import 
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected 'from', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:31.595] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import 
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected 'from', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:37.918] Server  LOG      ✓ Compiled in 19ms
+[00:22:38.601] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import Link
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:38.602] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import Link
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:41.595] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import LinkIdIn
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:41.596] Browser ERROR   ./app/page.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import LinkIdIn
+  5 |
+> 6 | export default function Home() {
+    | ^^^^^^
+  7 |   const lottieRef = useRef(null);
+  8 |
+  9 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:44.422] Server  LOG      ✓ Compiled in 15ms
+[00:22:44.607] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:44.607] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:49.605] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:49.605] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:56.608] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:56.608] Browser ERROR   ./app/page.tsx:30:25
+Parsing ecmascript source code failed
+  28 |
+  29 |         <div className="">
+> 30 |           <Image src={}/>
+     |                         ^
+  31 |         </div>
+  32 |       </div>
+  33 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:01.599] Browser ERROR   uncaughtError: ReferenceError: s is not defined
+[00:23:01.600] Browser ERROR   uncaughtError: ReferenceError: s is not defined
+[00:23:02.859] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:02.860] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:03.001] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__ce6aa389._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:03.003] Server  ERROR    ⨯ ReferenceError: soci is not defined
+[00:23:03.016] Server  LOG      ✓ Compiled in 26ms
+[00:23:03.058] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__ce6aa389._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:03.058] Server  ERROR    ⨯ ReferenceError: soci is not defined
+[00:23:03.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:03.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:03.604] Browser ERROR   uncaughtError: ReferenceError: soci is not defined
+[00:23:03.605] Browser ERROR   uncaughtError: ReferenceError: soci is not defined
+[00:23:05.960] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:05.961] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:06.092] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__ce6aa389._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:06.092] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:06.105] Server  LOG      ✓ Compiled in 23ms
+[00:23:06.135] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__ce6aa389._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:06.136] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:23:06.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:06.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:06.602] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:23:06.602] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:23:07.192] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:07.192] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:07.205] Server  LOG      ✓ Compiled in 27ms
+[00:23:08.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:08.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:09.086] Server  LOG      ✓ Compiled in 19ms
+[00:23:09.598] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:23:09.599] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:23:12.271] Server  LOG      ✓ Compiled in 24ms
+[00:23:21.437] Server  LOG      ✓ Compiled in 30ms
+[00:23:27.586] Server  LOG      ✓ Compiled in 16ms
+[00:23:27.694] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import LinkIdIn from "@/public/assets/social.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:28.595] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import LinkIdIn from "@/public/assets/social.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:31.079] Server  LOG      ✓ Compiled in 31ms
+[00:23:31.187] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/social.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:31.606] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/social.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:36.082] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/inst"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:36.607] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/inst"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:38.263] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:38.603] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:41.060] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:41.606] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/social.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:44.146] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.148] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.149] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.150] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.152] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.153] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.154] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.155] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.157] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.158] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.161] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.163] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.164] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.166] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.168] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.169] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.170] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.171] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.174] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.175] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.177] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.177] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.179] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.180] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.181] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.182] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.183] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.184] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.186] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.187] Server  ERROR    ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:23:44.188] Server  LOG      ✓ Compiled in 25ms
+[00:23:44.304] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:44.304] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:23:44.602] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:44.602] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '@/public/assets/'
+  4 | import LinkIdIn from "@/public/assets/social.png"
+  5 | import Instagram from "@/public/assets/photo.png"
+> 6 | import LinkIdIn from "@/public/assets/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LinkIdIn from "@/public/assets/social.png"
+  8 |
+  9 | export default function Home() {
+
+Import map: aliased to relative './public/assets/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:23:46.650] Server  LOG      ✓ Compiled in 27ms
+[00:23:46.759] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:47.598] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import LinkIdIn from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:49.922] Server  LOG      ✓ Compiled in 22ms
+[00:23:50.030] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import Github from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:50.604] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import Github from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/social.png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:56.627] Server  LOG      ✓ Compiled in 27ms
+[00:23:56.734] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import Github from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/whatsapp (1).png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:57.604] Browser ERROR   ./app/page.tsx:7:8
+Ecmascript file had an error
+   5 | import Instagram from "@/public/assets/photo.png"
+   6 | import Github from "@/public/assets/github.png"
+>  7 | import LinkIdIn from "@/public/assets/whatsapp (1).png"
+     |        ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   const lottieRef = useRef(null);
+
+the name `LinkIdIn` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:07.396] Server  LOG      ✓ Compiled in 26ms
+[00:24:11.775] Server  LOG      ✓ Compiled in 26ms
+[00:24:16.160] Server  LOG      ✓ Compiled in 35ms
+[00:24:27.039] Server  LOG      ✓ Compiled in 22ms
+[00:24:30.442] Server  LOG      ✓ Compiled in 23ms
+[00:24:31.976] Server  LOG      ✓ Compiled in 27ms
+[00:24:38.408] Server  LOG      ✓ Compiled in 23ms
+[00:24:40.530] Server  LOG      ✓ Compiled in 20ms
+[00:24:47.568] Server  LOG      ✓ Compiled in 10ms
+[00:25:04.273] Server  LOG      ✓ Compiled in 24ms
+[00:25:06.160] Server  LOG      ✓ Compiled in 26ms
+[00:25:09.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:13.537] Server  LOG      ✓ Compiled in 37ms
+[00:26:27.524] Server  LOG      ✓ Compiled in 17ms
+[00:26:44.210] Server  LOG      ✓ Compiled in 11ms
+[00:26:45.866] Server  LOG      ✓ Compiled in 20ms
+[00:26:48.013] Server  LOG      ✓ Compiled in 29ms
+[00:26:51.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:56.682] Server  LOG      ✓ Compiled in 24ms
+[00:27:00.516] Server  LOG      ✓ Compiled in 29ms
+[00:27:08.210] Server  LOG      ✓ Compiled in 25ms
+[00:27:09.935] Server  LOG      ✓ Compiled in 22ms
+[00:27:11.685] Server  LOG      ✓ Compiled in 32ms
+[00:27:17.386] Server  LOG      ✓ Compiled in 17ms
+[00:32:13.259] Server  LOG      ✓ Compiled in 64ms
+[00:32:13.599] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:13.599] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:13.599] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:13.599] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:13.599] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:13.599] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:22.600] Browser ERROR   ./app/page.tsx:10:30
+Parsing ecmascript source code failed
+   8 |     setIsVisible(true);
+   9 |     
+> 10 |     const handleMouseMove = (e as any) => {
+     |                              ^^^^^^^^
+  11 |       setMousePosition({
+  12 |         x: (e.clientX / window.innerWidth - 0.5) * 20,
+  13 |         y: (e.clientY / window.innerHeight - 0.5) * 20
+
+Not a pattern
+[00:32:22.600] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:22.601] Browser ERROR   ./app/page.tsx:10:30
+Parsing ecmascript source code failed
+   8 |     setIsVisible(true);
+   9 |     
+> 10 |     const handleMouseMove = (e as any) => {
+     |                              ^^^^^^^^
+  11 |       setMousePosition({
+  12 |         x: (e.clientX / window.innerWidth - 0.5) * 20,
+  13 |         y: (e.clientY / window.innerHeight - 0.5) * 20
+
+Not a pattern
+[00:32:22.601] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:25.601] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:25.601] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:25.602] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:25.602] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:25.602] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:25.602] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:26.596] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:26.596] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:26.596] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:26.596] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:26.596] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:26.596] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:32.100] Server  ERROR    ⨯ ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+
+
+[00:32:32.250] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:32.250] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:32.250] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:32.642] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:32.642] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:32.642] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:33.057] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:33.057] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:33.057] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:33.212] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:33.212] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:33.212] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:34.255] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.255] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.255] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:34.255] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.255] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.255] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:34.373] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.373] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.373] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:34.493] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:32:34.677] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.677] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.677] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:34.677] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.677] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:34.677] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:35.609] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:35.609] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:35.609] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:35.609] Browser ERROR   ./app/page.tsx:1:27
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                           ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:35.609] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState, useEffect } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:35.609] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:39.322] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:39.322] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:39.601] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from 'react';
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:39.601] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:40.532] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:40.532] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:40.594] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:40.594] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:43.451] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:43.451] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:43.451] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:43.606] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:43.606] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:43.606] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:44.632] Server  ERROR    ⨯ ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+
+./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+
+
+[00:32:44.738] Browser ERROR   uncaughtError: Error: ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:32:44.885] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:44.885] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:44.885] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:44.885] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:44.885] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:44.885] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:45.601] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:45.601] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:45.601] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:45.601] Browser ERROR   ./app/page.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:45.601] Browser ERROR   ./app/page.tsx:1:28
+Ecmascript file had an error
+> 1 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  2 |
+  3 | export default function Home() {
+  4 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:45.601] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:50.556] Browser ERROR   ./app/page.tsx:3:17
+Ecmascript file had an error
+  1 |
+  2 |
+> 3 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:50.556] Browser ERROR   ./app/page.tsx:3:28
+Ecmascript file had an error
+  1 |
+  2 |
+> 3 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:50.556] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:50.603] Browser ERROR   ./app/page.tsx:3:17
+Ecmascript file had an error
+  1 |
+  2 |
+> 3 | import React, { useEffect, useState } from "react";
+    |                 ^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:50.603] Browser ERROR   ./app/page.tsx:3:28
+Ecmascript file had an error
+  1 |
+  2 |
+> 3 | import React, { useEffect, useState } from "react";
+    |                            ^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:32:50.603] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[00:32:54.822] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:55.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:55.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:55.601] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:36:59.749] Server  LOG      ✓ Compiled in 34ms
+[00:37:05.129] Server  LOG      ✓ Compiled in 18ms
+[00:37:11.322] Server  LOG      ✓ Compiled in 31ms
+[00:37:14.642] Server  LOG      ✓ Compiled in 28ms
+[00:37:15.604] Browser ERROR   ./app/page.tsx:8:8
+Ecmascript file had an error
+   6 | import Github from "@/public/assets/github.png";
+   7 | import Whatsapp from "@/public/assets/whatsapp (1).png";
+>  8 | import Whatsapp from "@/public/assets/whatsapp (1).png";
+     |        ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const lottieRef = useRef(null);
+
+the name `Whatsapp` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:37:15.604] Browser ERROR   ./app/page.tsx:8:8
+Ecmascript file had an error
+   6 | import Github from "@/public/assets/github.png";
+   7 | import Whatsapp from "@/public/assets/whatsapp (1).png";
+>  8 | import Whatsapp from "@/public/assets/whatsapp (1).png";
+     |        ^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   const lottieRef = useRef(null);
+
+the name `Whatsapp` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:37:27.103] Server  LOG      ✓ Compiled in 28ms
+[00:37:27.598] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:44.074] Server  LOG      ✓ Compiled in 55ms
+[00:39:53.486] Server  LOG      ✓ Compiled in 15ms
+[00:42:16.899] Server  LOG      ✓ Compiled in 32ms
+[00:42:46.414] Server  LOG      ✓ Compiled in 27ms
+[00:42:53.533] Server  LOG      ✓ Compiled in 31ms
+[00:43:03.489] Server  LOG      ✓ Compiled in 29ms
+[00:43:11.401] Server  LOG      ✓ Compiled in 20ms
+[00:43:19.365] Server  LOG      ✓ Compiled in 24ms
+[00:43:30.138] Server  LOG      ✓ Compiled in 19ms
+[00:43:35.696] Server  LOG      ✓ Compiled in 17ms
+[00:43:36.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:37.129] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:52.140] Server  LOG      ✓ Compiled in 16ms
+[00:43:54.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:54.841] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:44:06.424] Server  LOG      ✓ Compiled in 14ms
+[00:44:09.286] Server  LOG      ✓ Compiled in 22ms
+[00:44:24.160] Server  LOG      ✓ Compiled in 28ms
+[00:44:29.556] Server  LOG      ✓ Compiled in 24ms
+[00:44:31.798] Server  LOG      ✓ Compiled in 17ms
+[00:44:34.289] Server  LOG      ✓ Compiled in 14ms
+[00:44:59.070] Server  LOG      ✓ Compiled in 16ms
+[00:45:34.582] Server  LOG      ✓ Compiled in 299ms
+[00:45:38.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:38.365] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:45:51.325] Server  LOG      ✓ Compiled in 32ms
+[00:46:48.029] Server  LOG      ✓ Compiled in 10ms
+[00:46:50.766] Server  LOG      ✓ Compiled in 18ms
+[00:47:48.023] Server  LOG      ✓ Compiled in 59ms
+[00:48:06.565] Server  LOG      ✓ Compiled in 51ms
+[00:49:20.809] Server  LOG      ✓ Compiled in 6ms
+[00:49:31.256] Server  LOG      ✓ Compiled in 31ms
+[00:49:39.481] Server  LOG      ✓ Compiled in 30ms
+[00:49:51.168] Server  LOG      ✓ Compiled in 29ms
+[00:49:54.427] Server  LOG      ✓ Compiled in 35ms
+[00:50:09.137] Server  LOG      ✓ Compiled in 37ms
+[00:50:20.333] Server  LOG      ✓ Compiled in 31ms
+[00:50:25.606] Server  LOG      ✓ Compiled in 23ms
+[00:50:46.987] Server  LOG      ✓ Compiled in 7ms
+[00:50:52.431] Server  LOG      ✓ Compiled in 26ms
+[00:54:52.405] Server  LOG      ✓ Compiled in 51ms
+[00:54:52.606] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:52.606] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:52.606] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:52.606] Browser WARN    Image with src "/_next/static/media/whatsapp (1).9cc97cdd.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:52.606] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:09.589] Server  LOG      ✓ Compiled in 36ms
+[00:55:22.454] Server  LOG      ✓ Compiled in 29ms
+[00:55:22.564] Browser ERROR   uncaughtError: ReferenceError: CircuitBackgroundStyles is not defined
+[00:55:22.594] Browser ERROR   uncaughtError: ReferenceError: CircuitBackgroundStyles is not defined
+[00:55:24.845] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:24.846] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:25.034] Server  LOG      ✓ Compiled in 26ms
+[00:55:25.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:25.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:25.373] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:25.373] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:25.373] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:25.374] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:25.374] Browser WARN    Image with src "/_next/static/media/whatsapp (1).9cc97cdd.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:25.608] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:55:43.697] Server  LOG      ✓ Compiled in 18ms
+[00:55:43.789] Browser ERROR   uncaughtError: ReferenceError: CircuitBackgroundStyles is not defined
+[00:55:44.595] Browser ERROR   uncaughtError: ReferenceError: CircuitBackgroundStyles is not defined
+[00:55:46.922] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:46.924] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:47.114] Server  LOG      ✓ Compiled in 36ms
+[00:55:47.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:47.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:47.404] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:47.404] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:47.404] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:47.404] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:55:47.404] Browser WARN    Image with src "/_next/static/media/whatsapp (1).9cc97cdd.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:57:06.619] Server  LOG      ✓ Compiled in 31ms
+[00:57:16.305] Server  LOG      ✓ Compiled in 32ms
+[00:58:19.653] Server  LOG      ✓ Compiled in 40ms
+[00:59:00.782] Server  LOG      ✓ Compiled in 30ms
+[00:59:13.929] Server  LOG      ✓ Compiled in 29ms
+[00:59:15.545] Server  LOG      ✓ Compiled in 17ms
+[00:59:39.684] Server  LOG      ✓ Compiled in 33ms
+[00:59:41.850] Server  LOG      ✓ Compiled in 29ms
+[00:59:52.393] Server  LOG      ✓ Compiled in 24ms
+[00:59:59.117] Server  LOG      ✓ Compiled in 31ms
+[01:00:11.010] Server  LOG      ✓ Compiled in 33ms
+[01:00:36.949] Server  LOG      ✓ Compiled in 33ms
+[01:00:45.209] Server  LOG      ✓ Compiled in 14ms
+[01:00:52.325] Server  LOG      ✓ Compiled in 26ms
+[01:01:52.299] Server  LOG      ✓ Compiled in 33ms
+[01:03:05.488] Server  LOG      ✓ Compiled in 19ms
+[01:03:11.416] Server  LOG      ✓ Compiled in 16ms
+[01:03:36.676] Server  LOG      ✓ Compiled in 29ms
+[01:03:37.700] Server  LOG      ✓ Compiled in 36ms
+[01:04:01.468] Server  LOG      ✓ Compiled in 40ms
+[01:04:58.027] Server  LOG      ✓ Compiled in 29ms
+[01:09:58.816] Server  LOG      ✓ Compiled in 26ms
+[01:10:08.546] Server  LOG      ✓ Compiled in 26ms
+[01:10:10.682] Server  LOG      ✓ Compiled in 28ms
+[01:10:13.133] Server  LOG      ✓ Compiled in 24ms
+[01:10:22.150] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:22.150] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:22.150] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:22.150] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:22.150] Browser WARN    Image with src "/_next/static/media/whatsapp (1).9cc97cdd.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:10:48.275] Server  LOG      ✓ Compiled in 28ms
+[01:11:34.922] Server  LOG      ✓ Compiled in 19ms
+[01:13:32.871] Server  LOG      ✓ Compiled in 34ms
+[01:16:37.663] Server  LOG      ✓ Compiled in 27ms
+[01:16:40.948] Server  LOG      ✓ Compiled in 34ms
+[01:19:23.713] Server  LOG      ✓ Compiled in 54ms
+[01:19:23.877] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__f60770bf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.881] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.934] Server  ERROR   C:\works\janlinkstree\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.938] Server  ERROR    ⨯ ReferenceError: Whatsapp is not defined
+[01:19:23.993] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__f60770bf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.993] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.996] Server  ERROR   C:\works\janlinkstree\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:23.997] Server  ERROR    ⨯ ReferenceError: Whatsapp is not defined
+[01:19:24.034] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[root-of-the-server]__f60770bf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:24.034] Server  ERROR   C:\works\janlinkstree\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:24.035] Server  ERROR   C:\works\janlinkstree\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:19:24.036] Server  ERROR    ⨯ ReferenceError: Whatsapp is not defined
+[01:19:24.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:24.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:24.385] Browser ERROR   uncaughtError: ReferenceError: Whatsapp is not defined
+[01:19:24.602] Browser ERROR   uncaughtError: ReferenceError: Whatsapp is not defined
+[01:19:26.640] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:26.640] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:19:26.640] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:26.641] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:26.641] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:19:26.641] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:26.652] Server  LOG      ✓ Compiled in 12ms
+[01:19:26.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:27.042] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:27.133] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:19:27.133] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:19:27.133] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:19:27.133] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:20:48.545] Server  LOG      ✓ Compiled in 47ms
+[01:21:48.361] Server  LOG      ✓ Compiled in 33ms
+[01:23:31.449] Server  LOG      ✓ Compiled in 266ms
+[01:23:31.857] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:31.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:33.331] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:23:33.331] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:23:33.331] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:23:33.331] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:26:12.721] Browser WARN    Image with src "/_next/static/media/main-boy.9110945e.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:26:12.721] Browser WARN    Image with src "/_next/static/media/social.e2e3a944.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:26:12.721] Browser WARN    Image with src "/_next/static/media/photo.6cf451ab.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:26:12.721] Browser WARN    Image with src "/_next/static/media/github.f2b9e777.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
