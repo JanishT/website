@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import LinkIdIn from "@/public/assets/social.png";
-import Instagram from "@/public/assets/photo.png";
-import Github from "@/public/assets/github.png";
-// import Whatsapp from "@/public/assets/whatsapp (1).png";
-import Boy from "@/public/assets/main-boy.png";
+import LinkIdIn from "@/app/assets/social.png";
+import Instagram from "@/app/assets/photo.png";
+import Github from "@/app/assets/github.png";
+// import Whatsapp from "@/app/assets/whatsapp (1).png";
+import Boy from "@/app/assets/main-boy.png";
 
 const CircuitBackgroundStyles = () => (
   <style jsx global>{`
