@@ -39,7 +39,7 @@ const CircuitBackgroundStyles = () => (
 );
 
 const socialLinks = [
-  { icon: LinkIdIn, url: "https://www.linkedin.com/in/janish-t-9a0698357/" },
+  { icon: LinkIdIn, url: "https://www.linkedin.com/in/janish-t/" },
   {
     icon: Instagram,
     url: "https://www.instagram.com/__janish_riaz.__?igsh=YjR0emF4ZndrbjJl",
