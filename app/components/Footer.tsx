@@ -10,8 +10,7 @@ export default function Footer() {
       url: "https://www.linkedin.com/in/janish-t/",
       icon: FaLinkedin,
     },
-    { name: "Twitter", url: "https://twitter.com/", icon: FaTwitter },
-    { name: "Email", url: "mailto:janish@email.com", icon: FaEnvelope },
+   { name: "Email", url: "mailto:janishtzx@email.com", icon: FaEnvelope },
   ];
 
   return (
