@@ -2,12 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import {
-  FaReact,
-  FaNodeJs,
-  FaGitAlt,
-  FaVideo,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGitAlt, FaVideo } from "react-icons/fa";
 import {
   SiTypescript,
   SiJavascript,
@@ -24,32 +19,32 @@ import {
 
 const skillCategories = [
   {
-    title: "Frontend & Core",
+    title: "Frontend Technologies",
     skills: [
       { name: "React", icon: FaReact, color: "#61DAFB" },
       { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
       { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
       { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+      { name: "Redux", icon: SiRedux, color: "#764ABC" },
       { name: "HTML", icon: SiHtml5, color: "#E34F26" },
       { name: "CSS", icon: SiHtml5, color: "#1572B6" },
     ],
   },
   {
-    title: "Backend & State",
+    title: "Backend Technologies",
     skills: [
       { name: "Node.js", icon: FaNodeJs, color: "#339933" },
       { name: "Express.js", icon: SiExpress, color: "#ffffff" },
       { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-      { name: "Redux", icon: SiRedux, color: "#764ABC" },
     ],
   },
   {
-    title: "Tools & Styling",
+    title: "Development Tools & UI Libraries",
     skills: [
       { name: "Git", icon: FaGitAlt, color: "#F05032" },
       { name: "GitHub", icon: SiGithub, color: "#ffffff" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-      { name: "Material-UI", icon: SiMui, color: "#007FFF" },
+      { name: "Material UI", icon: SiMui, color: "#007FFF" },
     ],
   },
 ];
