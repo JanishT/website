@@ -54,7 +54,7 @@ export default function ResumeSection() {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-primary-green text-dark-green font-semibold rounded hover:bg-primary-green/90 transition-colors shadow-[0_0_20px_rgba(100,255,218,0.3)] hover:shadow-[0_0_30px_rgba(100,255,218,0.5)]"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-primary-green text-dark-green font-semibold rounded hover:bg-primary-green/90 transition-colors shadow-[0_0_20px_rgba(120,168,148,0.22)] hover:shadow-[0_0_34px_rgba(120,168,148,0.34)]"
             >
               <FaDownload />
               Download Resume

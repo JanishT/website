@@ -37,7 +37,7 @@ export default function BackgroundParticles() {
 
     const particlesMaterial = new THREE.PointsMaterial({
       size: 0.02,
-      color: 0x64ffda,
+      color: 0x78a894,
       transparent: true,
       opacity: 0.4,
       blending: THREE.AdditiveBlending,

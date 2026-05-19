@@ -45,21 +45,21 @@ export default function CustomCursor() {
       x: mousePosition.x - 24,
       y: mousePosition.y - 24,
       scale: 1.5,
-      backgroundColor: "rgba(100, 255, 218, 0.1)",
-      border: "1px solid rgba(100, 255, 218, 0.8)",
+      backgroundColor: "rgba(120, 168, 148, 0.12)",
+      border: "1px solid rgba(120, 168, 148, 0.82)",
     },
   };
 
   return (
     <>
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 rounded-full pointer-events-none z-50 border border-green-400 bg-green-400/20 mix-blend-screen"
+        className="fixed top-0 left-0 w-8 h-8 rounded-full pointer-events-none z-50 border border-primary-green/70 bg-primary-green/15 mix-blend-screen"
         variants={variants}
         animate={isHovering ? "hover" : "default"}
         transition={{ type: "tween", ease: "backOut", duration: 0.1 }}
       />
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 rounded-full pointer-events-none z-50 bg-green-300"
+        className="fixed top-0 left-0 w-2 h-2 rounded-full pointer-events-none z-50 bg-primary-green"
         animate={{
           x: mousePosition.x - 4,
           y: mousePosition.y - 4,

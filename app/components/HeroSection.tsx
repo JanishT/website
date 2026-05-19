@@ -76,7 +76,7 @@ export default function HeroSection() {
               {titles.map((title, idx) => (
                 <motion.div
                   key={idx}
-                  className="absolute left-0 top-0 text-primary-green drop-shadow-[0_0_15px_rgba(100,255,218,0.3)]"
+                  className="absolute left-0 top-0 text-primary-green drop-shadow-[0_0_15px_rgba(120,168,148,0.32)]"
                   initial={{ y: 80, opacity: 0, rotateX: -90 }}
                   animate={{
                     y: currentTitleIdx === idx ? 0 : -80,

@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} font-inter bg-[#05110d] text-white antialiased overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} font-inter bg-dark-green text-white antialiased overflow-x-hidden`}
       >
         <LenisProvider>
           <CustomCursor />
