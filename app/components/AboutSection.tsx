@@ -2,13 +2,19 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import Image from "next/image";
-import ProfileImg from "@/app/assets/profile.jpeg";
+import { Film, Palette, Sparkles, MonitorPlay } from "lucide-react";
+import SectionHeading from "./SectionHeading";
+
+const highlights = [
+  { icon: Film, title: "Video Transitions", text: "Narratives shaped with emotion, rhythm, and polished pacing." },
+  { icon: Palette, title: "Color grading", text: "Warm cinematic tones, controlled contrast, and premium finishing." },
+  { icon: MonitorPlay, title: "YouTube / social", text: "Short-form edits, thumbnails, and platform-native delivery." },
+ 
+];
 
 const stats = [
-  { value: "3+", label: "Years Experience" },
-  { value: "6+", label: "Projects On working" },
-  { value: "10+", label: "Technologies Used" },
+  { value: "2+", label: "Years shaping stories" },
+  { value: "20+", label: "Projects delivered" },
 ];
 
 export default function AboutSection() {
@@ -16,73 +22,76 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-24 max-w-7xl mx-auto px-6" ref={ref}>
+    <section id="about" className="mx-auto max-w-7xl px-6 py-24 sm:px-8 lg:px-10" ref={ref}>
+      <SectionHeading
+        eyebrow="About"
+        title="Editing with emotion, precision, and pace"
+        description="I blend cinematic craft with modern post-production to create work that feels premium, immersive, and built for audience connection."
+      />
+
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
-        className="flex flex-col md:flex-row gap-16 items-center"
+        className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]"
       >
-        <div className="flex-1 space-y-6 text-slate text-lg">
-          <h2 className="text-3xl md:text-5xl font-bold text-light-slate flex items-center gap-4">
-            <span className="text-primary-green text-2xl font-mono">01.</span>
-            About Me
-            <div className="flex-1 h-[1px] bg-secondary-green ml-4" />
-          </h2>
-
-          <p>
-            Am Janish, a passionate Software Developer specializing in
-            building modern web applications.
+        <div className="space-y-6 rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-[0_20px_60px_rgba(0,0,0,0.25)] backdrop-blur-xl">
+          <p className="text-lg leading-8 text-slate-300">
+            I’m passionate about turning raw footage into emotionally resonant stories — whether that means a documentary, a travel film, a commercial, or a fast-moving YouTube edit.
           </p>
-
-          <p>
-        Primarily work with React, TypeScript, Node.js, and MongoDB, building scalable systems, modern user interfaces, and delivering solutions to complex challenges.
+          <p className="text-lg leading-8 text-slate-300">
+            My process blends thoughtful pacing, sleek color work, dynamic motion graphics, and meticulous audio design so every frame feels intentional.
           </p>
-
-          <p>
-            Currently,building high-performance web applications. Here are a few technologies I’ve been working with recently:
-          </p>
-
-          <ul className="grid grid-cols-2 gap-2 text-sm font-mono mt-4">
-            {["JavaScript (ES6+)", "TypeScript", "React", "Node.js", "Next.js", "MongoDB"].map(
-              (tech) => (
-                <li key={tech} className="flex items-center gap-2">
-                  <span className="text-primary-green">▹</span> {tech}
-                </li>
-              )
-            )}
-          </ul>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {[
+              "Video Transitions",
+              "Colour grading",
+              "Speed Ramping",
+              "Motion graphics",
+              "YouTube content",
+              "Instagram Reels",
+             
+            ].map((item) => (
+              <div key={item} className="rounded-2xl border border-red-400/20 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
+                {item}
+              </div>
+            ))}
+          </div>
         </div>
 
-        <div className="w-full md:w-5/12 perspective-1000">
-          <div className="relative w-full aspect-[4/5] max-w-[400px] mx-auto group">
-            <div className="absolute inset-0 border-2 border-primary-green rounded translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300" />
-            <div className="absolute inset-0 bg-primary-green/20 group-hover:bg-transparent transition-colors duration-300 z-10 mix-blend-multiply rounded" />
-            <Image
-              src={ProfileImg}
-              alt="Janish Profile"
-              fill
-              className="object-cover object-top rounded relative z-0 filter contrast-125 brightness-90 sepia-[.2] hue-rotate-[-10deg] saturate-50 group-hover:filter-none transition-all duration-500"
-            />
-          </div>
+        <div className="grid gap-4">
+          {highlights.map((item, index) => {
+            const Icon = item.icon;
+            return (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 24 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.5, delay: index * 0.1 + 0.2 }}
+                className="rounded-[1.5rem] border border-white/10 bg-slate-950/40 p-5 backdrop-blur"
+              >
+                <div className="mb-3 inline-flex rounded-full border border-red-400/20 bg-red-500/10 p-2 text-red-300">
+                  <Icon size={18} />
+                </div>
+                <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                <p className="mt-2 text-sm leading-7 text-slate-400">{item.text}</p>
+              </motion.div>
+            );
+          })}
         </div>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+      <div className="mt-10 grid gap-6 md:grid-cols-3">
         {stats.map((stat, i) => (
           <motion.div
             key={stat.label}
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 24 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: i * 0.2 + 0.5 }}
-            className="flex flex-col items-center justify-center p-8 border border-secondary-green rounded bg-dark-green hover:bg-secondary-green hover:-translate-y-2 transition-transform"
+            transition={{ duration: 0.5, delay: i * 0.12 + 0.4 }}
+            className="rounded-[1.5rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/3 p-6 text-center backdrop-blur"
           >
-            <div className="text-5xl font-bold text-primary-green mb-2">
-              {stat.value}
-            </div>
-            <div className="text-slate font-medium text-center">
-              {stat.label}
-            </div>
+            <div className="text-4xl font-semibold text-red-300">{stat.value}</div>
+            <div className="mt-2 text-sm uppercase tracking-[0.25em] text-slate-400">{stat.label}</div>
           </motion.div>
         ))}
       </div>

@@ -1,16 +1,11 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useEffect, useState, useRef } from "react";
+import { useRef } from "react";
+import { ArrowRight, Play, Sparkles } from "lucide-react";
 import Image from "next/image";
-import HeroBg from "@/app/assets/janish_art_bg.png";
-
-const titles = [
-  "Software Developer",
-];
 
 export default function HeroSection() {
-  const [currentTitleIdx, setCurrentTitleIdx] = useState(0);
   const containerRef = useRef<HTMLElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -18,130 +13,59 @@ export default function HeroSection() {
     offset: ["start start", "end start"],
   });
 
-  // Pan from left to center/right to simulate the camera moving across the scene
-  const xOff = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1.1, 1.25]);
-  const opacity = useTransform(scrollYProgress, [0, 0.8], [0.4, 0.1]);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentTitleIdx((prev) => (prev + 1) % titles.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+  const y = useTransform(scrollYProgress, [0, 1], [0, -40]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.06]);
 
   return (
     <section
       id="home"
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden"
+      className="relative flex min-h-screen items-center overflow-hidden px-6 pb-24 pt-28 sm:px-8 lg:px-10"
     >
-      <div className="absolute inset-0 z-0 bg-black">
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_top_left,_rgba(239,68,68,0.18),_transparent_35%),linear-gradient(135deg,_rgba(17,24,39,0.95),_rgba(2,6,23,0.98))]" />
+      <motion.div
+        style={{ y, scale }}
+        className="absolute inset-0 z-0 opacity-70"
+      >
+        <div className="absolute inset-0 bg-[linear-gradient(115deg,_transparent_0%,_rgba(255,255,255,0.05)_45%,_transparent_100%)]" />
+        <div className="absolute left-[10%] top-[18%] h-72 w-72 rounded-full bg-red-500/15 blur-3xl" />
+        <div className="absolute bottom-[12%] right-[8%] h-80 w-80 rounded-full bg-rose-400/10 blur-3xl" />
+      </motion.div>
+
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
         <motion.div
-          className="relative w-[120%] h-[120%] -left-[10%] -top-[10%]"
-          style={{ x: xOff, scale, opacity }}
+          initial={{ opacity: 0, y: 28 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="max-w-3xl"
         >
-          <Image
-            src={HeroBg}
-            alt="Banner Image"
-            fill
-            className="object-cover"
-            style={{ objectPosition: "left center" }}
-            priority
-          />
-        </motion.div>
-        <div className="absolute inset-0 bg-gradient-to-t from-dark-green/90 via-dark-green/60 to-transparent backdrop-blur-[1px]" />
-      </div>
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-red-400/30 bg-white/5 px-4 py-2 text-sm text-red-200 backdrop-blur">
+            <Sparkles size={16} />
+            DaVinci Resolve • Capcut • Motion Graphics • After Effects
+          </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-start justify-center text-left">
-        <div className="space-y-4 md:space-y-6">
-       
-          
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-            className="text-5xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-light-slate to-slate tracking-tight"
-          >
+          <h1 className="text-4xl font-semibold leading-[0.95] text-white sm:text-5xl md:text-7xl lg:text-8xl">
             Janish Thalappil
-          </motion.h1>
+            <span className="mt-3 block bg-gradient-to-r from-red-300 via-rose-200 to-white bg-clip-text text-transparent">
+              Video Editor
+            </span>
+          </h1>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
-            className="h-16 flex items-center text-3xl md:text-6xl font-bold text-slate overflow-hidden relative"
-          >
-            <div className="relative w-full h-full">
-              {titles.map((title, idx) => (
-                <motion.div
-                  key={idx}
-                  className="absolute left-0 top-0 text-primary-green drop-shadow-[0_0_15px_rgba(120,168,148,0.32)]"
-                  initial={{ y: 80, opacity: 0, rotateX: -90 }}
-                  animate={{
-                    y: currentTitleIdx === idx ? 0 : -80,
-                    opacity: currentTitleIdx === idx ? 1 : 0,
-                    rotateX: currentTitleIdx === idx ? 0 : 90,
-                  }}
-                  transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-                  style={{ transformOrigin: "bottom center" }}
-                >
-                  {title}
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
+          <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+         I'm a passionate Video Editor creating cinematic travel films, YouTube videos, and Instagram Reels using DaVinci Resolve and CapCut.</p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
-            className="max-w-2xl text-slate text-lg md:text-xl leading-relaxed pt-6 font-light border-l-2 border-primary-green pl-6"
-          >
-           Specialize in IT technologies and am driven to explore and implement modern, innovative digital solutions.
-          </motion.p>
-
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex flex-wrap gap-4 pt-8"
-          >
+          <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#projects"
-              className="px-8 py-4 border border-primary-green text-primary-green rounded hover:bg-primary-green/10 transition-colors"
+              className="inline-flex items-center gap-2 rounded-full border border-red-400/40 bg-red-500/15 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:bg-red-500/25"
             >
-              View Projects
+              View Portfolio <ArrowRight size={16} />
             </a>
-            <a
-              href="#resume"
-              className="px-8 py-4 bg-primary-green text-dark-green font-semibold rounded hover:bg-primary-green/90 transition-colors"
-            >
-              Download Resume
-            </a>
-          </motion.div> */}
-        </div>
+           
+          </div>
+        </motion.div>
       </div>
-
-      <motion.div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-      >
-        <div className="w-[1px] h-16 bg-gradient-to-b from-primary-green to-transparent overflow-hidden">
-          <motion.div
-            className="w-full h-1/2 bg-white"
-            initial={{ y: -20 }}
-            animate={{ y: 40 }}
-            transition={{
-              repeat: Infinity,
-              duration: 1.5,
-              ease: "linear",
-            }}
-          />
-        </div>
-      </motion.div>
+     
     </section>
   );
 }

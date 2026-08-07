@@ -2,74 +2,49 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { FaDownload } from "react-icons/fa";
+import { ArrowRight, Download } from "lucide-react";
 
 export default function ResumeSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section
-      id="resume"
-      className="py-24 max-w-4xl mx-auto px-6 mb-20"
-      ref={ref}
-    >
+    <section id="resume" className="mx-auto mb-20 max-w-6xl px-6 py-24 sm:px-8 lg:px-10" ref={ref}>
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
+        initial={{ opacity: 0, scale: 0.97 }}
         animate={isInView ? { opacity: 1, scale: 1 } : {}}
         transition={{ duration: 0.6 }}
-        className="bg-gradient-to-br from-secondary-green to-dark-green border border-primary-green/20 rounded-2xl p-8 md:p-12 relative overflow-hidden group"
+        className="overflow-hidden rounded-[2rem] border border-red-400/20 bg-gradient-to-br from-slate-900 via-slate-950 to-black p-8 shadow-[0_20px_70px_rgba(0,0,0,0.32)] md:p-12"
       >
-        <div className="absolute inset-0 bg-primary-green/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-        <div className="relative z-10 flex flex-col md:flex-row gap-10 items-center justify-between">
-          <div className="flex-1">
-            <h2 className="text-3xl md:text-4xl font-bold text-light-slate mb-4">
-              Get My Full Resume
+        <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
+          <div className="max-w-2xl">
+            <p className="text-sm uppercase tracking-[0.35em] text-red-300">Portfolio spotlight</p>
+            <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              Video work crafted for cinematic impact.
             </h2>
-            <p className="text-slate mb-8 max-w-md">
-              Grab a copy of my resume for a detailed look at my experience,
-              education, and skills.
+            <p className="mt-5 text-lg leading-8 text-slate-300">
+              Explore a curated selection of edits, color grading, motion graphics, and story-driven films designed to elevate visual storytelling.
             </p>
-
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary-green" />
-                <span className="text-light-slate font-medium">Education:</span>
-                <span className="text-slate">Bachelor's in Computer Science</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary-green" />
-                <span className="text-light-slate font-medium">Core Skills:</span>
-                <span className="text-slate">React, Node.js, MongoDB</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary-green" />
-                <span className="text-light-slate font-medium">Experience:</span>
-                <span className="text-slate">3+ years Web Development</span>
-              </div>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a href="/Janish_thalappil-video_editor.pdf" download className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-1">
+                <Download size={16} /> Download Resume
+              </a>
+              <a href="mailto:janishtzx@gmail.com" className="inline-flex items-center gap-2 rounded-full border border-red-400/30 bg-red-500/10 px-6 py-3 text-sm font-semibold text-red-200 transition hover:-translate-y-1">
+                Contact Me <ArrowRight size={16} />
+              </a>
             </div>
-
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-primary-green text-dark-green font-semibold rounded hover:bg-primary-green/90 transition-colors shadow-[0_0_20px_rgba(120,168,148,0.22)] hover:shadow-[0_0_34px_rgba(120,168,148,0.34)]"
-            >
-              <FaDownload />
-              Download Resume
-            </a>
           </div>
 
-          <div className="hidden md:block w-48 h-64 bg-dark-green border border-slate/30 rounded shadow-2xl rotate-3 group-hover:rotate-6 transition-transform duration-500 relative p-4 flex flex-col gap-2">
-            {/* Minimal resume preview visualization */}
-            <div className="w-2/3 h-4 rounded bg-primary-green/40 mb-2" />
-            <div className="w-full h-2 rounded bg-slate/20" />
-            <div className="w-5/6 h-2 rounded bg-slate/20" />
-            <div className="w-4/6 h-2 rounded bg-slate/20" />
-            <div className="w-full h-12 rounded bg-secondary-green mt-2" />
-            <div className="w-full h-12 rounded bg-secondary-green" />
-            <div className="w-full h-12 rounded bg-secondary-green" />
+          <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-slate-400">
+              <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
+              Signature work
+            </div>
+            <div className="mt-6 space-y-3 text-sm text-slate-300">
+              <p>• Cinematic reels and travel films</p>
+              <p>• Commercial and brand storytelling</p>
+              <p>• YouTube edits and visual polish</p>
+            </div>
           </div>
         </div>
       </motion.div>

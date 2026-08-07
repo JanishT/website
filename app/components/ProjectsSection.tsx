@@ -1,161 +1,138 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useRef, useState } from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { useRef } from "react";
+import { ArrowRight, Play } from "lucide-react";
+import SectionHeading from "./SectionHeading";
+import tharImg from "@/app/assets/portfolio/Thar.png"
+import ship from "@/app/assets/portfolio/ship.png"
+import { useState } from "react";
+import Image from "next/image";
 
 const projects = [
   {
-    title: "Queue Management System",
-    description:
-      "A token-based queue system for managing customer service counters, featuring real-time updates and analytics.",
-    tech: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
-    github: "#",
-    live: "#",
+  title: "Thar Off-Road Adventure Reel",
+category: "Promotional Reel",
+description:
+  "A cinematic promotional reel showcasing the Mahindra Thar conquering rugged off-road trails with dynamic pacing, smooth transitions, immersive sound design, and vibrant color grading. Edited in CapCut.",
+tools: ["CapCut", "Color Grading", "Sound Design"],
+    thumb: tharImg,
+    video: "/video/Thar_clip.MOV",
   },
   {
-    title: "Todo Application",
-    description:
-      "A full-stack task management application with secure authentication and robust state management.",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "#",
-    live: "#",
+     title: "Adventure & Memories",
+  category: "Lifestyle Reel",
+  description:
+    "A cinematic collection of travel adventures and life moments, edited with smooth transitions, creative pacing, and immersive visuals to tell a personal story.",
+   tools: ["DaVinci Resolve", "Color Grading", "Storytelling"],
+    thumb: ship,
+    video:"/video/sample_art.MOV",
   },
-  {
-    title: "Excel Report Generator",
-    description:
-      "Backend microservice that rapidly generates dynamic Excel reports for complex business analytics.",
-    tech: ["Node.js", "ExcelJS", "MongoDB"],
-    github: "#",
-    live: "#",
-  },
+  // {
+  //   title: "YouTube Narrative Cut",
+  //   category: "YouTube",
+  //   description: "A retention-focused edit with punchy pacing, polished transitions, and story-forward structure.",
+  //   tools: ["DaVinci Resolve", "Fusion", "Audio"],
+  //   thumb: "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=1200&q=80",
+  // },
 ];
-
-const TiltCard = ({
-  project,
-}: {
-  project: {
-    title: string;
-    description: string;
-    tech: string[];
-    github: string;
-    live: string;
-  };
-}) => {
-  const [coords, setCoords] = useState({ x: 0, y: 0 });
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const { offsetWidth: width, offsetHeight: height } = e.currentTarget;
-    const { nativeEvent } = e;
-    const x = (nativeEvent.offsetX / width) * 2 - 1;
-    const y = (nativeEvent.offsetY / height) * 2 - 1;
-    setCoords({ x, y });
-  };
-
-  const handleMouseLeave = () => {
-    setCoords({ x: 0, y: 0 });
-  };
-
-  return (
-    <motion.div
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-      animate={{
-        rotateX: coords.y * -10,
-        rotateY: coords.x * 10,
-      }}
-      transition={{ type: "spring", stiffness: 300, damping: 30 }}
-      className="bg-secondary-green p-8 rounded border border-light-slate/10 hover:border-primary-green/50 transition-colors flex flex-col h-full group"
-      style={{ perspective: 1000 }}
-    >
-      <div className="flex justify-between items-center mb-8">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="w-10 h-10 text-primary-green"
-        >
-          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-        </svg>
-        <div className="flex gap-4">
-          <a
-            href={project.github}
-            className="text-slate hover:text-primary-green transition-colors"
-          >
-            <FaGithub size={20} />
-          </a>
-          <a
-            href={project.live}
-            className="text-slate hover:text-primary-green transition-colors"
-          >
-            <FaExternalLinkAlt size={18} />
-          </a>
-        </div>
-      </div>
-
-      <h3 className="text-2xl font-bold text-light-slate mb-4 group-hover:text-primary-green transition-colors">
-        {project.title}
-      </h3>
-      <p className="text-slate mb-8 flex-1">{project.description}</p>
-      <ul className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-xs text-slate">
-        {project.tech.map((t) => (
-          <li key={t}>{t}</li>
-        ))}
-      </ul>
-    </motion.div>
-  );
-};
 
 export default function ProjectsSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
-  };
-
-  const cardVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-  };
-
+const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
   return (
-    <section id="projects" className="py-24 max-w-7xl mx-auto px-6" ref={ref}>
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
-      >
-        <h2 className="text-3xl md:text-5xl font-bold text-light-slate flex items-center gap-4 mb-16">
-          <span className="text-primary-green text-2xl font-mono">03.</span>
-          Some Things I've Built
-          <div className="flex-1 h-[1px] bg-secondary-green ml-4" />
-        </h2>
-      </motion.div>
+    <section id="projects" className="mx-auto max-w-7xl px-6 py-24 sm:px-8 lg:px-10" ref={ref}>
+      <SectionHeading
+        eyebrow="Portfolio"
+        title="Selected work with cinematic polish"
+        description="A look at recent edits crafted for impact, clarity, and visual elegance."
+      />
 
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-      >
-        {projects.map((project) => (
-          <motion.div key={project.title} variants={cardVariants}>
-            <TiltCard project={project} />
-          </motion.div>
+      <div className="grid gap-8 lg:grid-cols-2">
+        {projects.map((project, index) => (
+          <motion.article
+            key={project.title}
+            initial={{ opacity: 0, y: 28 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+            whileHover={{ y: -8, scale: 1.01 }}
+            className="group overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950/50 shadow-[0_20px_60px_rgba(0,0,0,0.28)] backdrop-blur"
+          >
+            <div className="relative aspect-video overflow-hidden">
+              {/* <img src={project?.thumb} alt={project.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" /> */}
+              <Image
+  src={project.thumb}
+  alt={project.title}
+  fill
+  className="object-cover transition duration-700 group-hover:scale-105"
+/>
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                {project.video ? (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedVideo(project.video)}
+                    className="rounded-full border border-white/40 bg-white/10 p-4 backdrop-blur transition hover:bg-white/20"
+                  >
+                    <Play size={24} className="ml-1 text-white" />
+                    <span className="sr-only">Play {project.title}</span>
+                  </button>
+                ) : (
+                  <div className="rounded-full border border-white/40 bg-white/10 p-4 backdrop-blur">
+                    <Play size={24} className="ml-1 text-white" />
+                  </div>
+                )}
+              </div>
+              <div className="absolute left-4 top-4 rounded-full border border-red-400/30 bg-red-500/15 px-3 py-1 text-xs uppercase tracking-[0.3em] text-red-200">
+                {project.category}
+              </div>
+            </div>
+
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
+              <p className="mt-3 text-sm leading-7 text-slate-400">{project.description}</p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {project.tools.map((tool) => (
+                  <span key={tool} className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">
+                    {tool}
+                  </span>
+                ))}
+              </div>
+              <a href="#resume" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-red-300 transition hover:text-red-200">
+                View Project <ArrowRight size={15} />
+              </a>
+            </div>
+          </motion.article>
         ))}
-      </motion.div>
+      </div>
+
+      {selectedVideo && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+          onClick={() => setSelectedVideo(null)}
+        >
+          <div
+            className="relative w-full max-w-5xl max-h-[90vh] overflow-hidden rounded-3xl bg-slate-950/95 shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setSelectedVideo(null)}
+              className="absolute right-4 top-4 z-10 rounded-full bg-black/70 p-3 text-white transition hover:bg-black/90"
+            >
+              ✕
+            </button>
+
+            <video
+              src={selectedVideo}
+              controls
+              autoPlay
+              className="h-full w-full max-h-[90vh] bg-black object-contain"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
