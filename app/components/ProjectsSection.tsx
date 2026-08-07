@@ -26,7 +26,7 @@ tools: ["CapCut", "Color Grading", "Sound Design"],
     "A cinematic collection of travel adventures and life moments, edited with smooth transitions, creative pacing, and immersive visuals to tell a personal story.",
    tools: ["DaVinci Resolve", "Color Grading", "Storytelling"],
     thumb: ship,
-    video:"/video/sample_art.MOV",
+    video:"/video/sample_art.mov",
   },
   // {
   //   title: "YouTube Narrative Cut",
