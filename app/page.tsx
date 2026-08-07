@@ -13,14 +13,14 @@ export default function Home() {
     <>
       <BackgroundParticles />
       <Navbar />
-      
-      <main className="flex flex-col w-full relative z-10">
+
+      <main className="relative z-10 flex w-full flex-col">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        {/* <ProjectsSection /> */}
+        <ProjectsSection />
         <ExperienceSection />
-        {/* <ResumeSection /> */}
+        <ResumeSection />
         <Footer />
       </main>
     </>
