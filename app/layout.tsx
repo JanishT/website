@@ -20,8 +20,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Janish Thalappil | Software Developer",
-  description: "Animated Portfolio of Janish Thalappil",
+  title: "Janish Thalappil | Video Editor",
+  description: "Premium video editor portfolio focused on DaVinci Resolve, color grading, motion graphics, and cinematic storytelling.",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import SectionHeading from "./SectionHeading";
 const experiences = [
   {
     role: "Freelance Editor",
-    company: "Independent Clients",
+    company: "freelance",
     date: "2025 — Present",
     bullets: [
       "Created Instagram Reels, YouTube Shorts, and other social media videos with engaging pacing and transitions.",
